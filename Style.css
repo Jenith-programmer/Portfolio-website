@@ -1,0 +1,166 @@
+/*head start*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header div{
+ float: left;
+ justify-content: space-between;
+ align-items: center;
+}
+header .logo{
+     margin-left: 120px;
+     padding: 20px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+   
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(23, 17, 17);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+header .nav ul li a{
+    color: #6e7069;
+}
+header .nav ul li a:hover{
+   color: #8492FF;
+}
+/*head close*/
+.section1{
+    background-color: #F9F9FF;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.half1 .half2{
+    width: 50%;
+}
+.half1{
+    margin-left: 150px;
+    margin-bottom: 120px;
+}
+.half2{
+    padding-right: 160px;
+}
+.half1 h3{
+    font-weight: normal;
+
+}
+.half1 h1{
+    font-size: 30px;
+}
+.half1 p{
+    color: #80827c;
+}
+.half1 input{
+    padding: 10px 25px;
+    background-color: #8095FE;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+.half1 input:hover{
+    box-shadow:5px 10px 30px rgb(128, 128, 128,0.5);
+    transition: all 0.5s ease-in ;
+    cursor: pointer;
+}
+/*section one close*/
+/*section two start*/
+.section2{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 500px;
+}
+.section2 .about h1{
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.section2 .about p{
+    line-height: 30px;
+    color:#A7A9A7;
+   
+}
+.section2 .about input{
+    background-color: #8095FE;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.section2 .about input:hover{
+    box-shadow: 5px 15px 30px rgb(143, 143, 244,0.5);
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+/*section two close*/
+.section3 {
+    width: 100%;
+    height: 450px;
+}
+.section3 .title{
+    text-align: center;
+}
+.section3 h1{
+    font-size: 30px;
+}
+.services1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    line-height: 22px;
+}
+.services1 p{
+    font-size: 13px;
+}
+.services1 div{
+    text-align: center;
+    line-height: 30px;
+}
+.services1 .logo:hover{
+    color: blue;
+    cursor: pointer;
+}
+.services2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 28px;
+}
+.services2 p{
+    font-size: 13px;
+}
+.services2 .logo:hover{
+    color: blue;
+    cursor: pointer;
+}
