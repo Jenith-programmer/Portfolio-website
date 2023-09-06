@@ -8,6 +8,10 @@ body{
 header{
     width: 100%;
     height: 60px;
+    position: fixed;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 1;
 }
 header div{
  float: left;
@@ -124,6 +128,7 @@ header .nav ul li a:hover{
     cursor: pointer;
 }
 /*section two close*/
+/*Section three Start*/
 .section3 {
     width: 100%;
     height: 450px;
@@ -162,5 +167,204 @@ header .nav ul li a:hover{
 }
 .services2 .logo:hover{
     color: blue;
+    cursor: pointer;
+}
+/*Section three end*/
+/* Section Four Start*/
+  .section4{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: #68B5FD;
+    color: white;
+  }
+  .section4 div{
+    float: left;
+    width: 20%;
+    text-align:center;
+    position: relative;
+   top: 50px;
+   left: 139px;
+  }
+  .section4 h1{
+    font-size: 35px;
+  }
+  .section4 p{
+    position: relative;
+     top: -20px;
+    font-size: 15px;
+  }
+/* Section Four end*/
+/* Section Five start*/
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+   margin-top: 60px;
+}
+.section5 .txt{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section5 .txt h1{
+    font-size: 40px;
+    color: #222222;
+}
+.section5 .txt p{
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+.section5 .imgg{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.section5 .imgg div{
+    width:340px;
+    height: 339px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.section5 .imgg h1{
+    font-size: 20px;
+    color: rgb(0,0,0);
+}
+.section5 .imgg p{
+    color:  rgb(0,0,0,0.7);
+    line-height: 0px;
+}
+.section5 figure{
+    background: linear-gradient(40deg,#8490ff 40%, #62bdfc 100%);
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.section5 figure:hover img{
+    opacity: 0.3;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+/* Section Five end*/
+/* Pricing table start*/
+   .section6{
+    width: 100%;
+    height: 500px;
+   }
+   .section6 .txt1{
+    text-align: center;
+    padding: 2% 0%;
+   }
+   .section6 .txt1 h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+   }
+   .section6 .txt1 p{
+    color: rgb(0,0,0),0.7;
+   }
+   .section6 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+   }
+   .section6 .card1{
+    margin-top:70px ;
+    width: 300px;
+    height: 470px;
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+   }
+   .section6 .card1 input{
+    outline: none;
+    border: none;
+    background-color: #68B4FC;
+    color: white;
+    font-size: 20px;
+    padding: 9px 60px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 20px;
+   }
+   .section6 .card1:hover{
+    color: white;
+    background-color: #68B4FC;
+    transition: all 0.3s ease-in;
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 20px 20px 30px #9ccbf6 ;
+   }
+
+/* Pricing table end*/
+/*offers start*/
+.section7{
+    margin-top: 300px;
+    height: 150px;
+    width: 100%;
+    background-color: #68B4FC;
+    display: flex;
+    justify-content: space-around;
+}
+.section7 img{
+    margin-top: 40px;
+   transform: scale(1.2);
+}
+.section7 img:hover{
+   opacity: 0.7;
+   cursor: pointer;
+}
+/* offers end*/
+footer{
+    width: 100%;
+    height: 270px;
+    background-color: #04091E;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+footer .text span{
+    color: #1D56F1;
+}
+footer h3{
+    font-size: 25px;
+    padding: 15px 2px;
+}
+footer p{
+    line-height: 30px;
+    color: #4E4F58;
+}
+footer .cont input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+    border-radius: 5px;
+}
+footer .cont button{
+    font-size: 18px ;
+    color: white;
+    background-color: #8490FF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+    position: relative;
+    right: 10px;
+    border-radius: 5px;
+}
+footer .connect i{
+    padding: 5px;
+    font-size: 20px;
+}
+footer .connect i:hover{
+    color: #1D56F1;
     cursor: pointer;
 }
