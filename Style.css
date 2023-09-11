@@ -50,6 +50,19 @@ header .nav ul li a{
 header .nav ul li a:hover{
    color: #8492FF;
 }
+.checkbtn{
+  display:none;
+   font-size: 30px;
+   color: rgb(0,0,0,0.9);
+   line-height: 80px;
+   float: right;
+   margin-right: -170px;
+}
+
+#check{
+     display: none;
+     
+}
 /*head close*/
 .section1{
     background-color: #F9F9FF;
@@ -322,6 +335,7 @@ header .nav ul li a:hover{
    cursor: pointer;
 }
 /* offers end*/
+/* footer start*/
 footer{
     width: 100%;
     height: 270px;
@@ -368,3 +382,45 @@ footer .connect i:hover{
     color: #1D56F1;
     cursor: pointer;
 }
+/* footer end*/
+
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #F9F9FF;
+        top: 54px;
+        left: -200%;
+        transition: all .1s;
+    }
+    
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    } 
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+    
+     header .nav ul li a {
+        font-size: 20px;
+        margin-left: 50px;
+     }
+
+}
+
