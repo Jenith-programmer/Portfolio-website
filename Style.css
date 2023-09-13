@@ -390,7 +390,7 @@ footer .connect i:hover{
 }
 /* footer end*/
 
-@media (max-width:768px){
+@media (max-width:1080px){
     header{
         width: 100%;
         height: auto;
@@ -429,7 +429,7 @@ footer .connect i:hover{
      }
 
 }
-@media (max-width:768px){
+@media (max-width:1080px){
     .section1{
         width: 100%;
         display: block;
