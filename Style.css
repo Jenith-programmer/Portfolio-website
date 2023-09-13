@@ -395,13 +395,14 @@ footer .connect i:hover{
 
 @media (max-width:1080px){
     header{
-        width: 100%;
-        height: auto;
+       max-width:100%;
+       height: 80px;
 
     }
     header .logo{
-        margin-left: 30px;
-        padding: 20px;
+    margin-left:15px ;
+    padding: 20px;   
+
     }
     .checkbtn{
         display: block;
@@ -412,7 +413,7 @@ footer .connect i:hover{
         height: 100vh;
         background: #F9F9FF;
         top: 54px;
-        left: -200%;
+        left: -100%;
         transition: all .1s;
     }
     
@@ -441,7 +442,7 @@ footer .connect i:hover{
      
     .half1{
        margin-top:100px;
-      margin-left: 70px;
+      margin-left: 80px;
     }
     .half1 h3{
         font-size: 15px;
