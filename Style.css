@@ -279,6 +279,9 @@ header .nav ul li a:hover{
     text-align: center;
     padding: 2% 0%;
    }
+   .section6 .card .card1{
+    text-align: center;
+   }
    .section6 .txt1 h1{
     font-size: 40px;
     line-height: 0;
@@ -536,16 +539,27 @@ footer .connect i:hover{
  .section4 p{
     font-size: 14px;
  }
-  .section6 .txt1{
-    width: 80%;
-    margin: auto;
-  }
+
   .section6 .card{
     display: block;
     width: 100%;
     height: 100vh;
     position: relative;
-    left: 20px;
+    left: 100px;
+  }
+.section6 .txt1 p {
+   font-size: 13px;
+}
+.section6 .txt1 h1{
+    font-size: 30px;
+}
+  .section6 .card .card1{
+    font-size: 12px;
+    height: 380px;
+    width: 200px;
+  }
+  .section6 .card .card1 h1{
+      font-size: 30px;
   }
   .section7{
     width: 100%;
@@ -571,8 +585,9 @@ footer .connect i:hover{
     top: -30px;
     font-size: 15px;
   }
-  footer input{
+  footer .cont input{
     position: relative;
+   width: 120px;
     top: -25px;
   }
   footer button{
